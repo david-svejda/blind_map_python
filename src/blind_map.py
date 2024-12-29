@@ -29,7 +29,7 @@ class BlindMapGame:
         self.world.events()
 
     def update(self) -> None:
-        self.world.update()
+        self.world.update(self.screen)
 
     def draw(self) -> None:
         self.world.draw(self.screen)
